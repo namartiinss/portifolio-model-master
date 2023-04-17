@@ -36,7 +36,7 @@ function Header({ setTheme, theme }: PropsHome) {
             </li>
           </ul>
         </nav>
-        <div className="menuContainer">
+        {/* <div className="menuContainer">
           <label onClick={setTheme}>
             <Switch
               onChange={setChecked}
@@ -53,7 +53,7 @@ function Header({ setTheme, theme }: PropsHome) {
             />
           </label>
           <img src="./images/menu.svg" alt="" className="menu" onClick={handleActiveMenu}/>
-        </div>
+        </div> */}
       </div>
     </HeaderContainer>
   );
